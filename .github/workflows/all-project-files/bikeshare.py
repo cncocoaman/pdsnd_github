@@ -10,7 +10,7 @@ CITY_FILES = {
 
 # Function to validate user input
 def validate_input(prompt, valid_options):
-    error_message = "Invalid input, please try again:"
+    error_message = "Invalid input, please try it again:"
     while True:
         user_input = input(prompt).lower().strip()
         if ',' in user_input:
